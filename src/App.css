@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.heading {
+  color: white;
+  padding: 15px 10px 10px 35px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: left;
+  background-image: url('https://news.weill.cornell.edu/sites/default/files/styles/news_story_featured_image/public/story_featured_images/shutterstock_1620672310_1.jpg');
+  background-size: cover;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.heading label {
+  font-size: 15px
+};
+
+.heading a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lc-main-div {
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
